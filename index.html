@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="es" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Daniel Herrera · Product Designer UX/UI</title>
+  <meta name="description" content="Portafolio de Daniel Herrera Tabarez, Product Designer (UX/UI) para plataformas empresariales, automatización e IA.">
+  <meta name="theme-color" content="#0b0d12">
+  <meta property="og:title" content="Daniel Herrera · Product Designer UX/UI">
+  <meta property="og:description" content="Convierto procesos complejos en interfaces que la gente sí quiere usar.">
+  <meta property="og:image" content="img/aguas/2.webp">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#work" data-i18n="skip">Saltar a los proyectos</a>
+  <div class="battery" aria-hidden="true"><span id="batteryFill"></span></div>
+
+  <header class="topbar">
+    <a href="#top" class="logo" id="logo" aria-label="Inicio">DH<span class="bolt">⚡</span></a>
+    <nav class="nav" id="nav">
+      <a href="#work" data-i18n="nav.work">Casos</a>
+      <a href="#approach" data-i18n="nav.approach">Cómo trabajo</a>
+      <a href="#skills" data-i18n="nav.skills">Power-ups</a>
+      <a href="#path" data-i18n="nav.path">Trayectoria</a>
+      <a href="#contact" data-i18n="nav.contact">Hablemos</a>
+    </nav>
+    <div class="controls">
+      <button class="pill" id="langBtn" aria-label="Cambiar idioma">EN</button>
+      <button class="pill" id="themeBtn" aria-label="Cambiar tema">☀️</button>
+      <button class="burger" id="burger" aria-label="Menú" aria-expanded="false"><span></span><span></span></button>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-text">
+        <p class="eyebrow reveal" data-i18n="hero.eyebrow">Product Designer UX/UI · Medellín, Colombia</p>
+        <h1 class="reveal">
+          <span data-i18n="hero.h1a">Diseño software empresarial</span><br>
+          <span data-i18n="hero.h1b">que la gente</span>
+          <span class="rotator" id="rotator">sí quiere usar.</span>
+        </h1>
+        <p class="lead reveal" data-i18n-html="hero.lead">
+          Llevo más de 5 años entrando a procesos llenos de Excel, correos y reglas de negocio,
+          y saliendo con <strong>flujos claros, pantallas limpias y equipos que adoptan la herramienta</strong>.
+          Mi terreno: energía, servicios públicos, automatización e IA.
+        </p>
+        <div class="hero-cta reveal">
+          <a href="#work" class="btn primary" data-i18n="hero.cta1">Ver los casos ↓</a>
+          <a href="cv-daniel-herrera.pdf" class="btn ghost" download data-i18n="hero.cta2">Descargar CV</a>
+        </div>
+      </div>
+      <div class="hero-card reveal" aria-hidden="true">
+        <div class="avatar">
+          <!-- Cambia esto por tu foto: <img src="img/foto.webp" alt="Daniel Herrera"> -->
+          <span>DH</span>
+        </div>
+        <div class="terminal">
+          <p><span class="prompt">&gt;</span> <span id="typed"></span><span class="caret">▍</span></p>
+        </div>
+      </div>
+      <ul class="stats">
+        <li class="reveal"><b class="count" data-to="5">0</b><b>+</b><span data-i18n="stats.years">años diseñando</span></li>
+        <li class="reveal"><b class="count" data-to="9">0</b><span data-i18n="stats.cases">casos en este portafolio</span></li>
+        <li class="reveal"><b class="count" data-to="6">0</b><b>+</b><span data-i18n="stats.clients">clientes de energía y servicios públicos</span></li>
+        <li class="reveal"><b>∞</b><span data-i18n="stats.excel">hojas de Excel jubiladas</span></li>
+      </ul>
+    </section>
+
+    <!-- MANIFIESTO -->
+    <section class="manifesto">
+      <p class="reveal" data-i18n-html="manifesto">
+        Las plataformas empresariales tienen fama de feas y difíciles.
+        <em>No tienen por qué.</em> Detrás de cada pantalla hay un técnico en campo, una analista con 200 solicitudes
+        o un reclutador con 500 hojas de vida. <strong>Yo diseño para ellos</strong>, sin perder de vista
+        las reglas del negocio ni la lógica técnica.
+      </p>
+    </section>
+
+    <!-- PROYECTOS -->
+    <section id="work" class="work">
+      <header class="section-head">
+        <p class="eyebrow" data-i18n="work.eyebrow">Casos resueltos</p>
+        <h2 data-i18n="work.title">Problemas enredados, soluciones claras</h2>
+        <p data-i18n="work.sub">Cada tarjeta es un reto real. Haz clic para ver cómo lo resolví.</p>
+      </header>
+      <div class="filters" id="filters" role="tablist"></div>
+      <div class="grid" id="grid"></div>
+      <div class="more">
+        <h3 data-i18n="more.title">Y en la bodega también hay…</h3>
+        <ul class="chips" id="moreList"></ul>
+      </div>
+    </section>
+
+    <!-- COMO TRABAJO -->
+    <section id="approach" class="approach">
+      <header class="section-head">
+        <p class="eyebrow" data-i18n="approach.eyebrow">Cómo trabajo</p>
+        <h2 data-i18n="approach.title">Del caos al prototipo en 4 pasos</h2>
+      </header>
+      <ol class="steps" id="steps"></ol>
+    </section>
+
+    <!-- HABILIDADES -->
+    <section id="skills" class="skills">
+      <header class="section-head">
+        <p class="eyebrow" data-i18n="skills.eyebrow">Power-ups</p>
+        <h2 data-i18n="skills.title">Lo que traigo en la mochila</h2>
+      </header>
+      <div class="skill-groups" id="skillGroups"></div>
+    </section>
+
+    <!-- TRAYECTORIA -->
+    <section id="path" class="path">
+      <header class="section-head">
+        <p class="eyebrow" data-i18n="path.eyebrow">Trayectoria</p>
+        <h2 data-i18n="path.title">El camino hasta aquí</h2>
+      </header>
+      <ol class="timeline" id="timeline"></ol>
+    </section>
+
+    <!-- CONTACTO -->
+    <section id="contact" class="contact">
+      <h2 class="reveal" data-i18n-html="contact.title">¿Tienes un proceso <span class="hl">enredado</span>?<br>Hablemos.</h2>
+      <p class="reveal" data-i18n="contact.sub">Respondo rápido. Prometo no mandarte un Excel.</p>
+      <div class="contact-links reveal">
+        <a class="btn primary big" href="mailto:herreshapes@gmail.com">herreshapes@gmail.com</a>
+        <button class="btn ghost" id="copyMail" data-i18n="contact.copy">Copiar correo</button>
+        <a class="btn ghost" href="https://www.linkedin.com/in/daniel-herrera-tabarez-bb0582208/" target="_blank" rel="noopener">LinkedIn ↗</a>
+        <a class="btn ghost" href="cv-daniel-herrera.pdf" download data-i18n="contact.cv">CV (PDF) ↓</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Daniel Herrera Tabarez · <span data-i18n="footer">Hecho a mano, con café y un poco de voltaje.</span></p>
+    <p class="hint" data-i18n="footer.hint">Pista: haz clic 5 veces en el logo ⚡</p>
+  </footer>
+
+  <!-- MODAL DE CASO -->
+  <dialog class="modal" id="modal" aria-labelledby="mTitle">
+    <button class="close" id="mClose" aria-label="Cerrar">✕</button>
+    <div class="m-body" id="mBody"></div>
+  </dialog>
+
+  <div class="toast" id="toast" role="status"></div>
+  <script src="script.js"></script>
+</body>
+</html>
