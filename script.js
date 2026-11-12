@@ -42,11 +42,7 @@ const PROJECTS = [
     },
     tags: ["UX flows", "Dashboard", "Mobile-first", "Roles"],
     images: [
-      { src: "img/aguas/1.webp", cap: { es: "Inicio del técnico: su semana en un vistazo", en: "Technician home: the week at a glance" } },
-      { src: "img/aguas/2.webp", cap: { es: "Dashboard del líder con alertas y semáforo", en: "Leader dashboard with alerts and traffic light" } },
-      { src: "img/aguas/3.webp", cap: { es: "Paso 3: campos condicionales por actividad", en: "Step 3: conditional fields per activity" } },
-      { src: "img/aguas/4.webp", cap: { es: "Paso 4: carga de fotos de obra", en: "Step 4: site photo upload" } },
-      { src: "img/aguas/5.webp", cap: { es: "Informe auto-generado listo para aprobar", en: "Auto-generated report ready to approve" } }
+      { src: "img/aguas-1.webp", cap: { es: "Inicio del técnico: su semana en un vistazo", en: "Technician home: the week at a glance" } }
     ]
   },
   {
@@ -85,11 +81,7 @@ const PROJECTS = [
     },
     tags: ["UX for AI", "Human-in-the-loop", "Workflows", "Roles"],
     images: [
-      { src: "img/reclutamiento/1.webp", cap: { es: "Embudo de validación de 8 etapas", en: "8-stage validation funnel" } },
-      { src: "img/reclutamiento/2.webp", cap: { es: "Respuestas del candidato y evaluación con IA", en: "Candidate answers and AI evaluation" } },
-      { src: "img/reclutamiento/3.webp", cap: { es: "Búsqueda con porcentaje de similitud", en: "Search with similarity percentage" } },
-      { src: "img/reclutamiento/4.webp", cap: { es: "Validación final del jefe reclutador", en: "Final review by the hiring manager" } },
-      { src: "img/reclutamiento/5.webp", cap: { es: "Edición de prompts con variables", en: "Prompt editing with variables" } }
+      { src: "img/reclutamiento-1.webp", cap: { es: "Validación final del jefe reclutador", en: "Final review by the hiring manager" } }
     ]
   },
   {
@@ -126,11 +118,7 @@ const PROJECTS = [
     },
     tags: ["Data validation", "Bulk upload", "Edge cases"],
     images: [
-      { src: "img/alquiler/1.webp", cap: { es: "Matriz de comparación: foto vs. Street View", en: "Comparison matrix: photo vs. Street View" } },
-      { src: "img/alquiler/2.webp", cap: { es: "Ingreso al aplicativo", en: "App entry screen" } },
-      { src: "img/alquiler/3.webp", cap: { es: "Estado de los archivos cargados", en: "Status of uploaded files" } },
-      { src: "img/alquiler/4.webp", cap: { es: "Solicitudes por validar", en: "Requests to validate" } },
-      { src: "img/alquiler/5.webp", cap: { es: "Roles y usuarios", en: "Roles and users" } }
+      { src: "img/alquiler-1.webp", cap: { es: "Matriz de comparación: foto vs. Street View", en: "Comparison matrix: photo vs. Street View" } }
     ]
   },
   {
@@ -169,11 +157,7 @@ const PROJECTS = [
     },
     tags: ["Regulated flows", "Multi-role", "Complex forms"],
     images: [
-      { src: "img/fronteras/1.webp", cap: { es: "Bandeja del analista con contadores", en: "Analyst inbox with counters" } },
-      { src: "img/fronteras/2.webp", cap: { es: "Registro por pestañas y firma", en: "Tabbed registration and signing" } },
-      { src: "img/fronteras/3.webp", cap: { es: "Objeción con causales regulatorias", en: "Objection with regulatory grounds" } },
-      { src: "img/fronteras/4.webp", cap: { es: "Vista del agente", en: "Agent view" } },
-      { src: "img/fronteras/5.webp", cap: { es: "Resumen de requerimientos", en: "Requests summary" } }
+      { src: "img/fronteras-1.webp", cap: { es: "Bandeja del analista con contadores", en: "Analyst inbox with counters" } }
     ]
   },
   {
@@ -210,11 +194,7 @@ const PROJECTS = [
     },
     tags: ["Data viz", "Maps", "Public portal"],
     images: [
-      { src: "img/paratec/1.webp", cap: { es: "Mapa de generación por tecnología", en: "Generation map by technology" } },
-      { src: "img/paratec/2.webp", cap: { es: "Transmisión por nivel de tensión", en: "Transmission by voltage level" } },
-      { src: "img/paratec/3.webp", cap: { es: "Detalle de planta solar", en: "Solar plant detail" } },
-      { src: "img/paratec/4.webp", cap: { es: "Informe de plantas térmicas", en: "Thermal plants report" } },
-      { src: "img/paratec/5.webp", cap: { es: "Noticias del sector", en: "Sector news" } }
+      { src: "img/paratec-1.webp", cap: { es: "Mapa de generación por tecnología", en: "Generation map by technology" } }
     ]
   },
   {
@@ -251,47 +231,7 @@ const PROJECTS = [
     },
     tags: ["Approval workflows", "Status tracking"],
     images: [
-      { src: "img/sintec/1.webp", cap: { es: "Seguimiento de la solicitud", en: "Request tracking" } },
-      { src: "img/sintec/2.webp", cap: { es: "Mis tareas con acciones por color", en: "My tasks with color-coded actions" } },
-      { src: "img/sintec/3.webp", cap: { es: "Formulario guiado de solicitud", en: "Guided request form" } },
-      { src: "img/sintec/4.webp", cap: { es: "Búsqueda con filtros", en: "Search with filters" } },
-      { src: "img/sintec/5.webp", cap: { es: "Inicio del portal", en: "Portal home" } }
-    ]
-  },
-  {
-    id: "transelca",
-    client: "ISA Transelca",
-    cats: ["energy", "data"],
-    level: 3,
-    title: { es: "Tableros comerciales", en: "Commercial dashboards" },
-    hook: {
-      es: "Solicitudes de clientes y proyectos potenciales regados en varios lados. Los puse en dos tableros.",
-      en: "Customer requests and potential projects scattered everywhere. I put them on two dashboards."
-    },
-    challenge: {
-      es: "El equipo comercial necesitaba hacer seguimiento a las solicitudes de conexión de clientes y a las ofertas potenciales por subestación, pero la información no se podía leer de un vistazo.",
-      en: "The sales team needed to track customer connection requests and potential offers by substation, but the information couldn't be read at a glance."
-    },
-    twist: {
-      es: "Había que mezclar plazos, responsables, etapas y ubicación geográfica sin convertir la pantalla en un árbol de Navidad.",
-      en: "It had to mix deadlines, owners, stages and geography without turning the screen into a Christmas tree."
-    },
-    solution: {
-      es: [
-        "<strong>Bitácora de solicitudes</strong> con cumplimiento de plazos (vigente, próxima a vencer, vencida) y carga por responsable.",
-        "<strong>Mapa de proyectos por subestación</strong> con indicadores clave: inversión, ingreso estimado, número de proyectos y potencia.",
-        "Filtros por líder, tipo de proyecto, estado, etapa, promotor y sector."
-      ],
-      en: [
-        "<strong>Requests log</strong> with deadline compliance (on time, due soon, overdue) and workload per owner.",
-        "<strong>Project map by substation</strong> with key indicators: investment, estimated revenue, number of projects and capacity.",
-        "Filters by lead, project type, status, stage, promoter and sector."
-      ]
-    },
-    tags: ["BI dashboards", "Data viz"],
-    images: [
-      { src: "img/transelca/1.webp", cap: { es: "Potencial de ofertas por subestación", en: "Offer potential by substation" } },
-      { src: "img/transelca/2.webp", cap: { es: "Bitácora y cumplimiento de plazos", en: "Request log and deadline compliance" } }
+      { src: "img/sintec-1.webp", cap: { es: "Seguimiento de la solicitud", en: "Request tracking" } }
     ]
   },
   {
@@ -326,11 +266,7 @@ const PROJECTS = [
     },
     tags: ["Self-service", "Multi-role", "SAP"],
     images: [
-      { src: "img/certificados/1.webp", cap: { es: "Consulta de certificados", en: "Certificate search" } },
-      { src: "img/certificados/2.webp", cap: { es: "Inicio del proveedor: solo dos opciones", en: "Supplier home: just two options" } },
-      { src: "img/certificados/3.webp", cap: { es: "Descargas masivas", en: "Bulk downloads" } },
-      { src: "img/certificados/4.webp", cap: { es: "Parametrización de cargas", en: "Upload settings" } },
-      { src: "img/certificados/5.webp", cap: { es: "Log de auditorías", en: "Audit log" } }
+      { src: "img/certificados-1.webp", cap: { es: "Consulta de certificados", en: "Certificate search" } }
     ]
   },
   {
@@ -365,10 +301,10 @@ const PROJECTS = [
     },
     tags: ["Citizen services", "Payments", "Accessibility"],
     images: [
-      { src: "img/emdupar/1.webp", cap: { es: "Inicio con 6 trámites", en: "Home with 6 tasks" } },
-      { src: "img/emdupar/2.webp", cap: { es: "Consulta de saldo", en: "Balance lookup" } },
-      { src: "img/emdupar/3.webp", cap: { es: "Pago de diferidos", en: "Deferred payments" } },
-      { src: "img/emdupar/4.webp", cap: { es: "Abono a factura con cupón", en: "Partial payment with coupon" } }
+      { src: "img/emdupar-1.webp", cap: { es: "Inicio con 6 trámites", en: "Home with 6 tasks" } },
+      { src: "img/emdupar-2.webp", cap: { es: "Consulta de saldo", en: "Balance lookup" } },
+      { src: "img/emdupar-3.webp", cap: { es: "Pago de diferidos", en: "Deferred payments" } },
+      { src: "img/emdupar-4.webp", cap: { es: "Abono a factura con cupón", en: "Partial payment with coupon" } }
     ]
   }
 ];
@@ -379,7 +315,7 @@ const MORE = [
   ["EPM", "Cuponeras"], ["EPM", "Análisis predial"], ["EPM", "GenIA"],
   ["Triple A", { es: "Junta directiva", en: "Board of directors" }],
   ["Global MVM", "MVM Energy Suite"], ["Global MVM", "UX Tool Kit"], ["Global MVM", { es: "Hojas de vida", en: "Resumes" }],
-  ["Open Innovation", "Focus Safe"], ["Open Innovation", { es: "Cámara de Comercio de Ibagué", en: "Ibagué Chamber of Commerce" }]
+  [{ es: "Servicios profesionales", en: "Professional services" }, "Focus Safe"], [{ es: "Servicios profesionales", en: "Professional services" }, { es: "Cámara de Comercio de Ibagué", en: "Ibagué Chamber of Commerce" }]
 ];
 
 const FILTERS = [
@@ -408,7 +344,7 @@ const SKILLS = [
 
 const TIMELINE = [
   { when: "2021 — 2026", es: ["UX/UI Designer", "Global MVM · Medellín", "Experiencias para plataformas complejas en energía y negocio: XM, EPM, ISA, Aguas Nacionales, Triple A, Emdupar. Investigación, flujos, prototipos y lineamientos de diseño, integrando analítica, automatización e IA."], en: ["UX/UI Designer", "Global MVM · Medellín", "Experiences for complex platforms in energy and business: XM, EPM, ISA, Aguas Nacionales, Triple A, Emdupar. Research, flows, prototypes and design guidelines, bringing in analytics, automation and AI."] },
-  { when: "2020 — 2026", es: ["UX/UI Designer (freelance)", "Open Innovation S.A.S", "Facilitación de talleres de Design Thinking, identificación de oportunidades digitales y capacitación en Figma. Proyectos como Focus Safe, CNA Ibérica Fiber Systems y la Cámara de Comercio de Ibagué."], en: ["UX/UI Designer (freelance)", "Open Innovation S.A.S", "Facilitating Design Thinking workshops, spotting digital opportunities and Figma training. Projects such as Focus Safe, CNA Ibérica Fiber Systems and the Ibagué Chamber of Commerce."] },
+  { when: "2020 — 2026", es: ["UX/UI Designer (freelance)", "Servicios profesionales", "Facilitación de talleres de Design Thinking, identificación de oportunidades digitales y capacitación en Figma. Proyectos como Focus Safe, CNA Ibérica Fiber Systems y la Cámara de Comercio de Ibagué."], en: ["UX/UI Designer (freelance)", "Professional services", "Facilitating Design Thinking workshops, spotting digital opportunities and Figma training. Projects such as Focus Safe, CNA Ibérica Fiber Systems and the Ibagué Chamber of Commerce."] },
   { when: "2019 — 2025", es: ["Prototipado de experiencias de iluminación", "Leds Do It · proyecto personal", "Diseño y montaje de iluminación para eventos. Diseño experiencias que se apagan y se prenden."], en: ["Lighting experience prototyping", "Leds Do It · personal project", "Designing and setting up lighting for events. I design experiences that switch on and off."] },
   { when: "2023", es: ["Curso práctico de Diseño UX", "El Tiempo", ""], en: ["Practical UX Design course", "El Tiempo", ""] },
   { when: "2021", es: ["Diseñador Industrial", "Universidad Pontificia Bolivariana", "Donde todo comenzó, de diseñar objetos a diseñar sistemas: la misma obsesión por cómo la gente usa las cosas u objetos cotidianos."], en: ["Industrial Designer", "Universidad Pontificia Bolivariana", "Where it all began, from designing objects to designing systems: the same obsession with how people use things and everyday objects."] }
@@ -513,7 +449,7 @@ function renderGrid() {
 }
 
 function renderMore() {
-  $("#moreList").innerHTML = MORE.map(([c, n]) => `<li><b>${t(n)}</b> · ${c}</li>`).join("");
+  $("#moreList").innerHTML = MORE.map(([c, n]) => `<li><b>${t(n)}</b> · ${t(c)}</li>`).join("");
 }
 function renderSteps() {
   $("#steps").innerHTML = STEPS.map((s, i) => `
@@ -547,8 +483,8 @@ function openCase(i) {
     <figure class="gallery">
       <div class="main"><img id="gMain" src="${p.images[0].src}" alt="${t(p.images[0].cap)}"></div>
       <figcaption id="gCap">${t(p.images[0].cap)}</figcaption>
-      <div class="thumbs">${p.images.map((im, k) => `
-        <button data-k="${k}" aria-current="${k === 0}" aria-label="${t(im.cap)}"><img src="${im.src}" alt="" loading="lazy"></button>`).join("")}</div>
+      ${p.images.length > 1 ? `<div class="thumbs">${p.images.map((im, k) => `
+        <button data-k="${k}" aria-current="${k === 0}" aria-label="${t(im.cap)}"><img src="${im.src}" alt="" loading="lazy"></button>`).join("")}</div>` : ""}
     </figure>
     <div class="story">
       <div class="box challenge"><h4>🧨 ${d.challenge}</h4><p>${t(p.challenge)}</p></div>
